@@ -37,4 +37,7 @@ class Article extends Equatable {
       content
     ];
   }
+
+  @override
+  bool get stringify => true;
 }
